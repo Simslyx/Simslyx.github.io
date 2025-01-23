@@ -89,7 +89,7 @@ function checkAppleCollision() {
         score++;
         apple.x = Math.random() * canvas.width;
         apple.y = Math.random() * canvas.height;
-        scoreDisplay.textContent = 'Score: ' + score + ' | Top Score: ' + topScore;
+        scoreDisplay.textContent = 'Score: ' + score;
     }
 }
 
