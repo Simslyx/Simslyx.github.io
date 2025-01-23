@@ -31,7 +31,7 @@ const player = {
 
 // Generate cars
 const cars = [];
-for (let i = 0; i < 12; i++) {
+for (let i = 0; i < 15; i++) {
     const position = getRandomPosition();
     cars.push({
         x: position.x,
