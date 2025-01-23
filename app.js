@@ -23,7 +23,7 @@ const player = {
     y: canvas.height - 30,
     width: 20,
     height: 20,
-    speed: 3,
+    speed: 2,
     dx: 0,
     dy: 0,
     visible: true // Track player visibility
