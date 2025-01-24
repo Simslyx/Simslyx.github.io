@@ -53,7 +53,7 @@ function getRandomSpeed() {
 function getRandomPosition() {
     return {
         x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height / 2
+        y: Math.random() * canvas.height / 4
     };
 }
 
