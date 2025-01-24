@@ -31,7 +31,7 @@ const player = {
 
 // Generate cars
 const cars = [];
-for (let i = 0; i < 15; i++) {
+for (let i = 0; i < 16; i++) {
     const position = getRandomPosition();
     cars.push({
         x: position.x,
@@ -53,7 +53,7 @@ function getRandomSpeed() {
 function getRandomPosition() {
     return {
         x: Math.random() * canvas.width,
-        y: Math.random() * canvas.height / 4
+        y: Math.random() * canvas.height
     };
 }
 
